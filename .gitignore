@@ -1,0 +1,46 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Compiled JS files
+static/compiled/
+
+# Database files
+db.sqlite3
+# or other database file based on your configuration
+
+# Local development files
+.env
+.localenv
+
+# IDE and OS specific files
+*.swp
+*.swo
+*.idea/
+.DS_Store
+
+# Coverage reports
+.coverage
+coverage.xml
+
+# Test database
+# If using a separate database for tests
+test.db.sqlite3
+
+# Cache
+.cache
+
+# Virtual environment
+venv/
+# or any other virtual environment name you use
+
+# Pip freeze
+requirements.txt
+
+# DRF swagger
+/api/docs
+
+# django-staticfiles output
+# If using collectstatic
+staticfiles/
